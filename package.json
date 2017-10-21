@@ -1,0 +1,15 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "Test application",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fun",
+    "learning"
+  ],
+  "author": "Rahul.B.George",
+  "license": "ISC"
+}
