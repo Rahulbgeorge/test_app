@@ -5,6 +5,7 @@ var ex=express();
 //This command sets the view engine to ejs which is doenoladed using npm , it is similar to the one that
 //is used in django views
 ex.set('view engine','ejs');
+ex.set('port', (process.env.PORT||5000));
 
 
 ex.get("/home/:id/name/:name",function(req,res){
@@ -27,4 +28,4 @@ ex.get("/assets/:file_system",function(req,res){
     res.sendFile(__dirname+"//assets//"+req.params.file_system);
 });
 
-ex.listen("8000",'127.0.0.1');
+ex.listen(ex.get('port'));
