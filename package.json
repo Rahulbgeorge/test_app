@@ -2,8 +2,9 @@
   "name": "first",
   "version": "1.0.0",
   "description": "Test application",
-  "main": "start.js",
+  "main": "exp.js",
   "scripts": {
+    "start":"node exp.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,5 +12,18 @@
     "learning"
   ],
   "author": "Rahul.B.George",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahulbgeorge/test_app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rahulbgeorge/test_app/issues"
+  },
+  "homepage": "https://github.com/Rahulbgeorge/test_app#readme"
 }
